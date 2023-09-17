@@ -12,14 +12,14 @@ This project demonstrates the integration of Google Sheets and Twilio to send SM
 
 1. Clone the repository to your computer:
 
-  ```bash
+  `
     git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    cd your-repo`
 
 2. Install the necessary Python packages:
 
-```bash
-pip install gspread google-auth twilio
+`
+pip install gspread google-auth twilio`
 
 3. Create a credentials.json file containing the credentials for accessing the Google Sheets API. The file should contain a JSON service account key.
 
