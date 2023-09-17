@@ -25,10 +25,10 @@ pip install gspread google-auth twilio`
 
 4. Create a config.py file and place your Twilio Token in it:
 
-```bash
+`
 # config.py
 
-TWILIO_TOKEN = 'Twilio_Token'  # Place your actual token here
+TWILIO_TOKEN = 'Twilio_Token'  # Place your actual token here`
 
 5.In the main.py file, you will find the main application code. Before running it, make sure you have properly configured your API keys and Twilio tokens.
 
@@ -36,8 +36,8 @@ TWILIO_TOKEN = 'Twilio_Token'  # Place your actual token here
 
 To run the application, follow these steps:
 
-```bash
-python main.py
+`
+python main.py`
 
 The application will retrieve data from Google Sheets and send an SMS to the specified phone number.
 
